@@ -17,6 +17,7 @@ ENV MYSQLDATA /usr/local/mysql/var
 VOLUME /usr/local/mysql/var
 
 COPY buildmysql4.sh /tmp/buildmysql4.sh
+RUN chmod +x /tmp/buildmysql4.sh
 RUN /tmp/buildmysql4.sh
 
 COPY docker-entrypoint.sh /
