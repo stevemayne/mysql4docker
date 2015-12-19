@@ -21,6 +21,7 @@ RUN chmod +x /tmp/buildmysql4.sh
 RUN /tmp/buildmysql4.sh
 
 COPY docker-entrypoint.sh /
+RUN chmod +x /docker-entrypoint.sh
 
 EXPOSE 3306
 
