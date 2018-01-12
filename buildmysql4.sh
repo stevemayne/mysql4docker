@@ -12,12 +12,8 @@ mkdir /usr/local/mysql/share
 mkdir /usr/local/mysql/man
 mkdir /usr/local/mysql/mysql-test
 checkinstall -y
-cp support-files/my-medium.cnf /etc/my.cnf
-cp support-files/mysql.server /etc/init.d/mysql
-chmod 755 /etc/init.d/mysql
-chkconfig mysql on
-cd /usr/local/mysql/
-chown -R root .
-chown -R mysql var
-chgrp -R mysql .
+#cp support-files/my-medium.cnf /etc/my.cnf
+#cp support-files/mysql.server /etc/init.d/mysql
+#chmod 755 /etc/init.d/mysql
+#chkconfig mysql on
 #rm -rf /usr/local/src/mysql-4.1.25
