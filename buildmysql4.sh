@@ -20,4 +20,4 @@ cd /usr/local/mysql/
 chown -R root .
 chown -R mysql var
 chgrp -R mysql .
-rm -rf /usr/local/src/mysql-4.1.25
+#rm -rf /usr/local/src/mysql-4.1.25
